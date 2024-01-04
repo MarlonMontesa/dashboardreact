@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 2rem;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.head>:nth-child(1){
+    height: 4rem;
+    width: 4rem;
+}
+.stat{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: var(--grey);
+    padding: 0.5rem;
+    gap: 1rem;
+}
+.stat>:nth-child(1){
+    font-size: 0.8rem;
+}
+
+.stat>:nth-child(2){
+    
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+}
+
+.orders{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    gap: 1.5rem;
+}
+
+.orderBody>div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 0.85rem;
+    color: var(--grey);
+}
+
+.orderBody>:nth-child(1){
+    margin-bottom: 0.8rem;
+}
+.orderBody>:nth-child(1)>:nth-child(2){
+    font-size: 1rem;
+    color: var(--green);
+}
+
+.orderChart{
+    width: 100%;
+}
+.orderChart>:nth-child(1){
+    text-align: center;
+}
